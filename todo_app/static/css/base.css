@@ -1,0 +1,155 @@
+body {
+    background-color: #daedf9;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding-top: 3rem;
+}
+
+.todo-app-wrapper {
+    max-width: 530px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 12px 18px -7px #777;
+    border-radius: 5px;
+}
+
+a {
+    color: #595959;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 1.25rem 0;
+    background-color: #daedf9;
+    background: rgb(37,75,168);
+    background: linear-gradient(
+        90deg, rgba(37,75,168,1) 32%, 
+        rgba(60,97,147,1) 87%
+    );
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+}
+
+.task-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    border-top: 1px solid #4646466a;
+}
+
+.task-title {
+    display: flex;
+    align-items: center;
+}
+
+.task-completed-icon {
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: lightgreen;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+}
+
+.task-incompleted-icon {
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: #595959;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+}
+
+.auth-area {
+    padding: 1.25rem;
+}
+
+.auth-area a {
+    color: lightcoral;
+}
+
+.search-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    align-items: center;
+}
+
+.search-input {
+    height: 1.5rem;
+    width: 10rem !important;
+    outline: none;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+
+.btn {
+    border: 1px solid lightseagreen;
+    padding: 4px 10px;
+    background-color: #fafafa;
+    color: lightseagreen;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+.btn:hover {
+    background-color: lightseagreen;
+    color: #fff;
+}
+
+.edit-btn {
+    color: #3a873a;
+}
+
+.delete-btn {
+    color: red;
+}
+
+.delete-exec-btn {
+    border: 1px solid red;
+    padding: 4px 10px;
+    background-color: #fafafa;
+    color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+.delete-exec-btn:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.add-btn {
+    font-size: 2rem;
+    color: lightseagreen;
+}
+
+.account-btn {
+    color: #0066c0	;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+}
+
+.account-wrapper {
+    padding: 0.75rem 1.25rem 1.25rem 1.25rem;
+}
+
+.account-wrapper p {
+    padding: 0;
+    margin: 0;
+}

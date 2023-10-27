@@ -1,0 +1,25 @@
+{% extends 'todo_app/base.html' %}
+
+{% block content %}
+<div class="header">
+    <h1>新規登録</h1>
+</div>
+
+<form action="" method="post" style="padding: 1.25rem;">
+    {% csrf_token %}
+    <label for="">ユーザ名</label>
+    {{ form.username }}
+    <label for="">パスワード</label>
+    {{ form.password1 }}
+    <label for="">確認用のパスワード</label>
+    {{ form.password2 }}
+    <br/>
+    <input type="submit" class="btn" value="新規登録" style="margin-top: 0.75rem;">
+</form>
+
+<hr/>
+<div class="account-wrapper">
+    <p>すでにアカウントを持っていますか？</p>
+    <a href="{% url 'login' %}" class="account-btn">ログイン</a>
+</div>
+{% endblock content %}
